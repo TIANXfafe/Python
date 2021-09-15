@@ -40,3 +40,11 @@ print(word2)
 print(word2.lstrip())
 print(word3)
 print(word3.strip())
+
+# 检查一个字符串中是否包含另一个字符串
+day = "0202"
+time = "4185964198419810202"
+if day in time:
+    print('存在')
+else:
+    print('不存在')
